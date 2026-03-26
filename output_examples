@@ -306,9 +306,6 @@ $ python main.py tests/sample_mysql.log --anomalies --out json
   }
 ]
 
-stani@stvcym MINGW64 ~/log-analyzer (main)
-$ python main.py /var/log/syslog --format syslog --anomalies --tail 1000
-error: file not found — C:/Program Files/Git/var/log/syslog
 
 stani@stvcym MINGW64 ~/log-analyzer (main)
 $ python main.py tests/sample_syslog.log --format syslog --anomalies --tail 1000
