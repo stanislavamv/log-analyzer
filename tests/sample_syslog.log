@@ -1,0 +1,16 @@
+Mar 10 08:01:00 web01 systemd[1]: Started nginx.service.
+Mar 10 08:15:33 web01 cron[2141]: (root) CMD (/usr/local/scripts/backup.sh)
+Mar 10 09:22:11 db01 mysqld[5678]: InnoDB: Table './net/deviceinfo' is marked as crashed and should be repaired
+Mar 10 09:22:12 db01 mysqld[5678]: InnoDB: Table './net/peers' is marked as crashed and should be repaired
+Mar 10 09:45:00 web01 systemd[1]: Started logrotate.service.
+Mar 10 10:05:17 app01 kernel: [1234567.890123] Out of memory: Kill process 9821 (java) score 812 or sacrifice child
+Mar 10 10:05:17 app01 kernel: [1234567.891234] Killed process 9821 (java) total-vm:4194304kB, anon-rss:2097152kB
+Mar 10 10:05:18 app01 systemd[1]: app-service.service: Main process exited, code=killed, status=9/KILL
+Mar 10 10:30:00 db01 mysqld[5678]: InnoDB: Starting crash recovery.
+Mar 10 10:30:04 db01 mysqld[5678]: InnoDB: Starting an apply batch of log records to the database...
+Mar 10 10:30:09 db01 mysqld[5678]: InnoDB: Recovery complete.
+Mar 10 11:00:00 web01 cron[3301]: (root) CMD (/usr/local/scripts/healthcheck.sh)
+Mar 10 11:15:44 app01 kernel: [1299000.112233] segfault at 0 ip 00007f3b2a1c5e80 sp 00007ffe4b3a2910 error 4 in libpython3.10.so
+Mar 10 11:15:44 app01 systemd[1]: worker.service: Main process exited, code=dumped, status=11/SEGV
+Mar 10 12:00:00 web01 kernel: [1300000.000000] EXT4-fs error (device sda1): No space left on device
+Mar 10 12:00:01 web01 kernel: [1300000.001000] EXT4-fs error (device sda1): ext4_find_entry: no space left on device

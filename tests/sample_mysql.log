@@ -1,0 +1,12 @@
+2024-03-10T08:00:01.000000Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.32) starting as process 5678
+2024-03-10T08:00:02.234567Z 0 [Warning] [MY-010068] [Server] InnoDB: Could not find a valid tablespace file for 'net'/'devicelock'.
+2024-03-10T08:00:03.456789Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 28 in a file operation. No space left on device.
+2024-03-10T08:00:04.567890Z 0 [ERROR] [MY-013183] [InnoDB] Assertion failure: data0data.cc:1187:1 thread 140234567890 line 1187
+2024-03-10T08:00:10.000000Z 0 [System] [MY-010116] [Server] Crash recovery finished.
+2024-03-10T08:01:00.111111Z 1 [Note] [MY-010051] [Server] IPv6 is available.
+2024-03-10T09:15:22.000000Z 5 [ERROR] [MY-013114] [Repl] Slave I/O for channel '': Got fatal error 1236 from master when reading data from binary log
+2024-03-10T09:15:22.001000Z 5 [ERROR] [MY-010584] [Repl] Slave SQL for channel '': Slave SQL thread stopped because of an unhandled error in an event.
+2024-03-10T10:00:00.000000Z 0 [Note] [MY-010747] [Server] Plugin 'BLACKHOLE' is disabled.
+2024-03-10T10:30:00.000000Z 6 [Warning] [MY-010055] [Server] Changed limits: max_open_files: 1024 (requested 4096)
+2024-03-10T11:45:12.345678Z 0 [ERROR] [MY-011825] [InnoDB] InnoDB: Table `net`.`pluginshortterm` is marked as crashed and should be repaired
+2024-03-10T11:45:13.456789Z 0 [ERROR] [MY-011825] [InnoDB] InnoDB: Table `local`.`trap_event` is marked as crashed and should be repaired

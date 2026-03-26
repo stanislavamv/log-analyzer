@@ -1,0 +1,14 @@
+2024-03-10 08:00:00,001 INFO  Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2024-03-10 08:00:00,050 INFO  supervisord started with pid 1
+2024-03-10 08:00:01,055 INFO  spawned: 'nginx' with pid 1204
+2024-03-10 08:00:01,058 INFO  spawned: 'app-worker' with pid 1205
+2024-03-10 08:00:02,062 INFO  success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-10 08:00:02,064 INFO  success: app-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-10 09:15:30,100 WARN  received SIGTERM indicating exit request
+2024-03-10 10:05:20,250 INFO  stopped: app-worker (exit status 0)
+2024-03-10 10:05:21,300 INFO  spawned: 'app-worker' with pid 2341
+2024-03-10 10:05:22,310 INFO  success: app-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-10 10:30:00,005 INFO  stopped: beat-scheduler (exit status 1)
+2024-03-10 10:30:00,010 INFO  gave up: beat-scheduler entered FATAL state, too many start retries too quickly
+2024-03-10 10:30:00,015 ERRO  beat-scheduler: ERROR (spawn error)
+2024-03-10 11:45:15,500 CRIT  could not write to '/tmp/supervisor.sock' no such file
