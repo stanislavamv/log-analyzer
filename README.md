@@ -105,6 +105,18 @@ python main.py tests/sample_mysql.log --level ERROR
 python main.py tests/sample_supervisord.log --anomalies
 ```
 
+
+## Output examples
+
+![sample_nginx](https://github.com/user-attachments/assets/771b7ee9-622a-4e12-81e8-0d84385f8898)
+![sample_nginx_POSTsearch](https://github.com/user-attachments/assets/e61c445e-34d8-4f5e-89d5-7818fa9eb8b2)
+![sample_supervisord](https://github.com/user-attachments/assets/7ba1bb72-4667-4484-b9e9-5d11e81257f3)
+![sample_syslog](https://github.com/user-attachments/assets/ab407e76-aa8c-478e-a90d-9c0c465d8099)
+![sample_syslog_anomalies](https://github.com/user-attachments/assets/a746fb77-e302-4d4e-9cd8-caf0fc786253)
+![sample_mysql](https://github.com/user-attachments/assets/7f88fa7f-c0ee-4818-993b-6eadd1da8bb7)
+![sample_mysql_anomalies_json](https://github.com/user-attachments/assets/775442f7-ee30-4449-baf0-c32a0e9034cf)
+
+
 ## Adding a new log format
 
 1. Add a new parser class in `parser.py` with a `parse(self, line)` method
